@@ -4,8 +4,10 @@ Asistente conversacional que responde preguntas sobre ciberseguridad a partir de
 
 **Proyecto independiente de carácter educativo, sin afiliación con INCIBE.** Las respuestas pueden contener errores y no sustituyen los canales oficiales de ayuda.
 
+**Aplicación disponible en:** https://asistente-ciberseguridad-incibe-rag.streamlit.app/
+
 <p align="center">
-  <img src="imgs/app.png" alt="Interfaz del asistente de ciberseguridad: configuración, conversación y fragmentos recuperados" width="700">
+  <img src="imgs/app.png" alt="Interfaz del asistente de ciberseguridad: configuración, conversación y fragmentos recuperados" width="900">
 </p>
 
 La interfaz reúne los controles de configuración a la izquierda, el chat en la zona central y las consultas de búsqueda con sus fragmentos recuperados a la derecha.
@@ -29,7 +31,7 @@ RAG (*Retrieval-Augmented Generation*) es una técnica que incorpora informació
 En esta aplicación, cada pregunta sigue este recorrido:
 
 <p align="center">
-  <img src="imgs/flujo_rag.png" alt="Flujo de consulta del asistente RAG: reformulación, embedding, recuperación en ChromaDB y generación con streaming" width="500">
+  <img src="imgs/flujo_rag.png" alt="Flujo de consulta del asistente RAG: reformulación, embedding, recuperación en ChromaDB y generación con streaming" width="400">
 </p>
 
 En el primer turno no hay mensajes anteriores, por lo que se busca información utilizando la pregunta tal como la ha escrito el usuario. Por ejemplo, si escribe «¿Qué es el phishing?», ese mismo texto se utiliza para recuperar los fragmentos de la base de datos.
