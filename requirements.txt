@@ -1,0 +1,9 @@
+chromadb
+fonttools
+langchain-chroma
+langchain-community
+langchain-core
+langchain-google-genai
+langchain-text-splitters
+pypdf
+streamlit>=1.49
