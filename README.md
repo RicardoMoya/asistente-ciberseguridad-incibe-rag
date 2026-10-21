@@ -6,6 +6,14 @@ Asistente conversacional que responde preguntas sobre ciberseguridad a partir de
 
 **Aplicación disponible en:** https://asistente-ciberseguridad-incibe-rag.streamlit.app/
 
+Para probar la aplicación, puedes comenzar con alguna de estas preguntas:
+
+- ¿Qué es el phishing y cómo puedo reconocerlo?
+- ¿Qué diferencias hay entre phishing, smishing y vishing?
+- ¿Qué señales pueden indicar que una tienda online es fraudulenta?
+
+Después de la primera respuesta, prueba una pregunta de seguimiento como **«¿Y cómo puedo evitarlo?»** para observar cómo utiliza el historial de la conversación.
+
 <p align="center">
   <img src="imgs/app.png" alt="Interfaz del asistente de ciberseguridad: configuración, conversación y fragmentos recuperados" width="900">
 </p>
@@ -104,13 +112,6 @@ Los cambios de modelo, K y temperatura se aplican a las siguientes preguntas y c
 
 El botón **«Vaciar conversación»** borra ambos historiales y hace que la siguiente pregunta se procese sin mensajes anteriores. No elimina la base documental ni reinicia los controles.
 
-### Preguntas de ejemplo
-
-Puedes iniciar una conversación con «¿Qué es el phishing y cómo puedo reconocerlo?» y continuar con «¿Y cómo puedo evitarlo?» o «¿Puedes resumirlo en tres recomendaciones?».
-
-Otras consultas posibles son «¿Qué diferencias hay entre phishing, smishing y vishing?» y «¿Qué señales pueden indicar que una tienda online es fraudulenta?».
-
-Para observar los límites del corpus, prueba una pregunta ajena a la ciberseguridad. El asistente recibe instrucciones para reconocer la información insuficiente, aunque ese comportamiento no está garantizado.
 
 ## Configuración
 
